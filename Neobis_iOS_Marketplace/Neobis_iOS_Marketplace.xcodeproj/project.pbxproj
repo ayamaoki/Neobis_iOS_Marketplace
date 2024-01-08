@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB961B212B3B50EC00E0CD5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB961B202B3B50EC00E0CD5E /* AppDelegate.swift */; };
+		DB961B232B3B50EC00E0CD5E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB961B222B3B50EC00E0CD5E /* SceneDelegate.swift */; };
+		DB961B252B3B50EC00E0CD5E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB961B242B3B50EC00E0CD5E /* FirstViewController.swift */; };
+		DB961B2A2B3B50ED00E0CD5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB961B292B3B50ED00E0CD5E /* Assets.xcassets */; };
+		DB961B2D2B3B50ED00E0CD5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB961B2B2B3B50ED00E0CD5E /* LaunchScreen.storyboard */; };
+		DB961B352B3B523B00E0CD5E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB961B342B3B523B00E0CD5E /* LoginViewController.swift */; };
+		DB961B382B3B52E200E0CD5E /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = DB961B372B3B52E200E0CD5E /* SnapKit */; };
+		DB961B5C2B3C924B00E0CD5E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB961B5B2B3C924B00E0CD5E /* LoginView.swift */; };
+		DB961B782B45C00700E0CD5E /* GothamPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB961B772B45C00700E0CD5E /* GothamPro-Bold.ttf */; };
+		DB961B7A2B45C01700E0CD5E /* GothamPro-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB961B792B45C01700E0CD5E /* GothamPro-Light.ttf */; };
+		DB961B7C2B45C02300E0CD5E /* GothamPro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB961B7B2B45C02300E0CD5E /* GothamPro.ttf */; };
+		DB961B7E2B45C03100E0CD5E /* GothamPro-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB961B7D2B45C03100E0CD5E /* GothamPro-Medium.ttf */; };
+		DB961B802B45FA7B00E0CD5E /* AnimatedPlaceholderTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB961B7F2B45FA7B00E0CD5E /* AnimatedPlaceholderTextField.swift */; };
+		DB961B842B49A4AA00E0CD5E /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB961B832B49A4AA00E0CD5E /* RegisterView.swift */; };
+		DB961B862B4AB41300E0CD5E /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB961B852B4AB41300E0CD5E /* RegisterViewController.swift */; };
+		DB961B892B4AE50C00E0CD5E /* PasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB961B882B4AE50C00E0CD5E /* PasswordView.swift */; };
+		DB961B8B2B4AE51900E0CD5E /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB961B8A2B4AE51900E0CD5E /* PasswordViewController.swift */; };
+		DB961B8D2B4B1BE700E0CD5E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB961B8C2B4B1BE700E0CD5E /* Model.swift */; };
+		DB961B912B4B244E00E0CD5E /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB961B902B4B244E00E0CD5E /* LoginViewModel.swift */; };
+		DB961B942B4B364900E0CD5E /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB961B932B4B364900E0CD5E /* ProfileView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DB961B1D2B3B50EC00E0CD5E /* Neobis_iOS_Marketplace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Neobis_iOS_Marketplace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB961B202B3B50EC00E0CD5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB961B222B3B50EC00E0CD5E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DB961B242B3B50EC00E0CD5E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		DB961B292B3B50ED00E0CD5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB961B2C2B3B50ED00E0CD5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB961B2E2B3B50ED00E0CD5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB961B342B3B523B00E0CD5E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DB961B5B2B3C924B00E0CD5E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		DB961B772B45C00700E0CD5E /* GothamPro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamPro-Bold.ttf"; sourceTree = "<group>"; };
+		DB961B792B45C01700E0CD5E /* GothamPro-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamPro-Light.ttf"; sourceTree = "<group>"; };
+		DB961B7B2B45C02300E0CD5E /* GothamPro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamPro.ttf; sourceTree = "<group>"; };
+		DB961B7D2B45C03100E0CD5E /* GothamPro-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamPro-Medium.ttf"; sourceTree = "<group>"; };
+		DB961B7F2B45FA7B00E0CD5E /* AnimatedPlaceholderTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedPlaceholderTextField.swift; sourceTree = "<group>"; };
+		DB961B832B49A4AA00E0CD5E /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		DB961B852B4AB41300E0CD5E /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		DB961B882B4AE50C00E0CD5E /* PasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordView.swift; sourceTree = "<group>"; };
+		DB961B8A2B4AE51900E0CD5E /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
+		DB961B8C2B4B1BE700E0CD5E /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		DB961B902B4B244E00E0CD5E /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		DB961B932B4B364900E0CD5E /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB961B1A2B3B50EC00E0CD5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB961B382B3B52E200E0CD5E /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB961B142B3B50EC00E0CD5E = {
+			isa = PBXGroup;
+			children = (
+				DB961B1F2B3B50EC00E0CD5E /* Neobis_iOS_Marketplace */,
+				DB961B1E2B3B50EC00E0CD5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB961B1E2B3B50EC00E0CD5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB961B1D2B3B50EC00E0CD5E /* Neobis_iOS_Marketplace.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB961B1F2B3B50EC00E0CD5E /* Neobis_iOS_Marketplace */ = {
+			isa = PBXGroup;
+			children = (
+				DB961B202B3B50EC00E0CD5E /* AppDelegate.swift */,
+				DB961B222B3B50EC00E0CD5E /* SceneDelegate.swift */,
+				DB961B242B3B50EC00E0CD5E /* FirstViewController.swift */,
+				DB961B7F2B45FA7B00E0CD5E /* AnimatedPlaceholderTextField.swift */,
+				DB961B8C2B4B1BE700E0CD5E /* Model.swift */,
+				DB961B812B49A48200E0CD5E /* Login */,
+				DB961B872B4AE4D700E0CD5E /* Registration */,
+				DB961B922B4B2C2300E0CD5E /* Password */,
+				DB961B932B4B364900E0CD5E /* ProfileView.swift */,
+				DB961B292B3B50ED00E0CD5E /* Assets.xcassets */,
+				DB961B2B2B3B50ED00E0CD5E /* LaunchScreen.storyboard */,
+				DB961B2E2B3B50ED00E0CD5E /* Info.plist */,
+				DB961B762B3D50B800E0CD5E /* Fonts */,
+			);
+			path = Neobis_iOS_Marketplace;
+			sourceTree = "<group>";
+		};
+		DB961B762B3D50B800E0CD5E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DB961B7D2B45C03100E0CD5E /* GothamPro-Medium.ttf */,
+				DB961B7B2B45C02300E0CD5E /* GothamPro.ttf */,
+				DB961B792B45C01700E0CD5E /* GothamPro-Light.ttf */,
+				DB961B772B45C00700E0CD5E /* GothamPro-Bold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		DB961B812B49A48200E0CD5E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				DB961B5B2B3C924B00E0CD5E /* LoginView.swift */,
+				DB961B342B3B523B00E0CD5E /* LoginViewController.swift */,
+				DB961B902B4B244E00E0CD5E /* LoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		DB961B872B4AE4D700E0CD5E /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				DB961B832B49A4AA00E0CD5E /* RegisterView.swift */,
+				DB961B852B4AB41300E0CD5E /* RegisterViewController.swift */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		DB961B922B4B2C2300E0CD5E /* Password */ = {
+			isa = PBXGroup;
+			children = (
+				DB961B882B4AE50C00E0CD5E /* PasswordView.swift */,
+				DB961B8A2B4AE51900E0CD5E /* PasswordViewController.swift */,
+			);
+			path = Password;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB961B1C2B3B50EC00E0CD5E /* Neobis_iOS_Marketplace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB961B312B3B50ED00E0CD5E /* Build configuration list for PBXNativeTarget "Neobis_iOS_Marketplace" */;
+			buildPhases = (
+				DB961B192B3B50EC00E0CD5E /* Sources */,
+				DB961B1A2B3B50EC00E0CD5E /* Frameworks */,
+				DB961B1B2B3B50EC00E0CD5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Neobis_iOS_Marketplace;
+			packageProductDependencies = (
+				DB961B372B3B52E200E0CD5E /* SnapKit */,
+			);
+			productName = Neobis_iOS_Marketplace;
+			productReference = DB961B1D2B3B50EC00E0CD5E /* Neobis_iOS_Marketplace.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB961B152B3B50EC00E0CD5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					DB961B1C2B3B50EC00E0CD5E = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = DB961B182B3B50EC00E0CD5E /* Build configuration list for PBXProject "Neobis_iOS_Marketplace" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB961B142B3B50EC00E0CD5E;
+			packageReferences = (
+				DB961B362B3B52E200E0CD5E /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			productRefGroup = DB961B1E2B3B50EC00E0CD5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB961B1C2B3B50EC00E0CD5E /* Neobis_iOS_Marketplace */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB961B1B2B3B50EC00E0CD5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB961B2D2B3B50ED00E0CD5E /* LaunchScreen.storyboard in Resources */,
+				DB961B7E2B45C03100E0CD5E /* GothamPro-Medium.ttf in Resources */,
+				DB961B7A2B45C01700E0CD5E /* GothamPro-Light.ttf in Resources */,
+				DB961B2A2B3B50ED00E0CD5E /* Assets.xcassets in Resources */,
+				DB961B7C2B45C02300E0CD5E /* GothamPro.ttf in Resources */,
+				DB961B782B45C00700E0CD5E /* GothamPro-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB961B192B3B50EC00E0CD5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB961B802B45FA7B00E0CD5E /* AnimatedPlaceholderTextField.swift in Sources */,
+				DB961B8B2B4AE51900E0CD5E /* PasswordViewController.swift in Sources */,
+				DB961B892B4AE50C00E0CD5E /* PasswordView.swift in Sources */,
+				DB961B352B3B523B00E0CD5E /* LoginViewController.swift in Sources */,
+				DB961B5C2B3C924B00E0CD5E /* LoginView.swift in Sources */,
+				DB961B862B4AB41300E0CD5E /* RegisterViewController.swift in Sources */,
+				DB961B842B49A4AA00E0CD5E /* RegisterView.swift in Sources */,
+				DB961B912B4B244E00E0CD5E /* LoginViewModel.swift in Sources */,
+				DB961B252B3B50EC00E0CD5E /* FirstViewController.swift in Sources */,
+				DB961B8D2B4B1BE700E0CD5E /* Model.swift in Sources */,
+				DB961B212B3B50EC00E0CD5E /* AppDelegate.swift in Sources */,
+				DB961B942B4B364900E0CD5E /* ProfileView.swift in Sources */,
+				DB961B232B3B50EC00E0CD5E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DB961B2B2B3B50ED00E0CD5E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB961B2C2B3B50ED00E0CD5E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB961B2F2B3B50ED00E0CD5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB961B302B3B50ED00E0CD5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB961B322B3B50ED00E0CD5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Neobis_iOS_Marketplace/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alt.Neobis-iOS-Marketplace";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB961B332B3B50ED00E0CD5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Neobis_iOS_Marketplace/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alt.Neobis-iOS-Marketplace";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB961B182B3B50EC00E0CD5E /* Build configuration list for PBXProject "Neobis_iOS_Marketplace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB961B2F2B3B50ED00E0CD5E /* Debug */,
+				DB961B302B3B50ED00E0CD5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB961B312B3B50ED00E0CD5E /* Build configuration list for PBXNativeTarget "Neobis_iOS_Marketplace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB961B322B3B50ED00E0CD5E /* Debug */,
+				DB961B332B3B50ED00E0CD5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DB961B362B3B52E200E0CD5E /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DB961B372B3B52E200E0CD5E /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DB961B362B3B52E200E0CD5E /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DB961B152B3B50EC00E0CD5E /* Project object */;
+}
